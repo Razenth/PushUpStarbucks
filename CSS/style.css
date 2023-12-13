@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-:root{
+:root {
     --text: #eebbc6;
-    --greenStar : #087f5b;
+    --greenStar: #087f5b;
 }
 
 * {
@@ -12,25 +12,26 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.navbar{
-    box-shadow: 0px 16px 15px -3px rgba(0,0,0,0.1);;
+.navbar {
+    box-shadow: 0px 16px 15px -3px rgba(0, 0, 0, 0.1);
+    ;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     color: var(--greenStar) !important;
     border-color: var(--greenStar);
     background-color: var(--greenStar);
 }
 
-.nav-link{
+.nav-link {
     color: var(--greenStar) !important;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: black !important;
 }
 
-.redes{
+.redes {
     position: fixed;
     right: 0;
     top: 40%;
@@ -41,10 +42,11 @@
     justify-content: space-around;
     height: 250px;
     width: 60px;
-    border-radius: 10px 0 0 10px ;
+    border-radius: 10px 0 0 10px;
+    box-shadow: -11px 0px 23px 5px rgba(0, 0, 0, 0.1);
 }
 
-.redes a{
+.redes a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,45 +54,47 @@
     width: 50px;
     height: 50px;
 }
-.redes a{
+
+.redes a {
     border-radius: 50%;
 }
 
-.redes a:hover{
+.redes a:hover {
     background-color: white;
 }
-.container-fluid{
+
+.container-fluid {
     --bs-gutter-x: 0px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 10px;
 }
 
-.page-home{
+.page-home {
     height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.home-title{
+.home-title {
     font-size: 70px;
     margin-bottom: 40px;
     color: var(--text);
 }
 
-.home-info{
+.home-info {
     text-align: left;
     margin-bottom: 20px;
     align-self: center;
 }
 
-.home-img{
+.home-img {
     height: 500px;
     width: auto;
 }
 
-.botones-dentro{
+.botones-dentro {
     height: 50px;
     width: 150px;
     border: none;
@@ -99,13 +103,13 @@
     border-radius: 10px;
 }
 
-.botones-dentro:hover{
+.botones-dentro:hover {
     background-color: white;
     color: var(--text);
     border: 1px solid var(--text);
 }
 
-.options{
+.options {
     display: flex;
     justify-content: center;
     bottom: 1px;
@@ -114,114 +118,116 @@
     /* background-color: #087f5b; */
 }
 
-.options button{
-    border: none ;
+.options button {
+    border: none;
 }
 
-.btn1:hover{
+.btn1:hover {
     background-color: #fabce9;
 }
 
-.btn3:hover{
+.btn3:hover {
     background-color: #d3c2a5;
 }
 
-@media (max-width:1540px){
+@media (max-width:1540px) {
 
-    .home-info{
+    .home-info {
         text-align: left;
         width: 45%;
     }
-    .home-info{
+
+    .home-info {
         font-size: 20px;
     }
 }
 
 
 @media (max-width:1000px) {
-    .page-home{
+    .page-home {
         height: 75vh;
     }
 
-    .about-us{
+    .about-us {
         height: 85vh;
     }
 
-    .nav-item{
+    .nav-item {
         text-align: center;
     }
-    
-    .nav-link{
+
+    .nav-link {
         border-bottom: 1px solid var(--greenStar);
     }
 
-    .about-img{
+    .about-img {
         height: 400px;
         align-self: center;
     }
 
-    .redes{
+    .redes {
         position: fixed
     }
 }
 
 @media (max-width:766px) {
-    .home-title{
+    .home-title {
         margin-top: 30px;
     }
-    .home-info{
+
+    .home-info {
         width: 100%;
         text-align: center;
         margin-bottom: 30px;
     }
 
-    .container-fluid{
+    .container-fluid {
         margin-left: 0px;
-        margin-right: 0px; 
+        margin-right: 0px;
     }
 
-    .navbar-brand:hover{
+    .navbar-brand:hover {
         margin-left: 5px;
-        cursor:default;
+        cursor: default;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         margin-left: 10px;
     }
-    
-    .navbar-toggler{
+
+    .navbar-toggler {
         margin-right: 10px;
     }
 
-    .page-home{
+    .page-home {
         display: inline-block;
         height: 105vh;
     }
 }
 
 @media (max-width:425px) {
-    .page-home{
+    .page-home {
         height: 110vh;
     }
 
-    .home-title{
+    .home-title {
         font-size: 50px;
     }
 
-    .home-info{
+    .home-info {
         font-size: 15px;
     }
 
-    .options{
+    .options {
         gap: 10px;
     }
-} 
+}
 
 @media (max-width:364px) {
 
-    .options{
+    .options {
         gap: 5px;
 
     }
 
-} 
+}
